@@ -22,7 +22,7 @@
         let profilePic = document.getElementById("profile");
         let uploadPic = document.getElementById("upload");
 
-        uploadPic.onchange = function(){
+        uploadPic.onchange = ()=>{
             profilePic.src = URL.createObjectURL(uploadPic.files[0])
         }
     </script>
