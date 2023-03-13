@@ -10,15 +10,18 @@ After selection of image from the local storage
 
 HTML code
 ```html
-<div class="container">
-    <div class="card">
-        <h1>Elon Musk</h1>
-        <p>@elonmusk</p>
-        <img src="/images/profile.png" id="profile">
-        <label for="upload">Update Profile</label>
-        <input type="file"  id="upload">
+    <div class="container">
+        <div class="card">
+            <h1>Elon Musk</h1>
+            <p>@elonmusk</p>
+            <img src="/images/profile.png" id="profile">
+            <label for="upload">Update Profile</label>
+            <input type="file"  id="upload">
+        </div>
     </div>
-</div>
+```    
+
+
 Javascript code to user
 
 ```javascript
@@ -28,3 +31,4 @@ let uploadPic = document.getElementById("upload");
         uploadPic.onchange = function(){
             profilePic.src = URL.createObjectURL(uploadPic.files[0])
         }
+```
