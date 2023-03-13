@@ -27,8 +27,7 @@ Javascript code to user
 ```javascript
 let profilePic = document.getElementById("profile");
 let uploadPic = document.getElementById("upload");
-
-        uploadPic.onchange = function(){
-            profilePic.src = URL.createObjectURL(uploadPic.files[0])
-        }
+uploadPic.onchange = function(){
+    profilePic.src = URL.createObjectURL(uploadPic.files[0])
+}
 ```
