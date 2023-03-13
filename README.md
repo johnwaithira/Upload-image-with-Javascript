@@ -1,1 +1,3 @@
-"# Upload Image with Javascript"
+# Upload Image with Javascript
+---
+![Output](image.png)
